@@ -1,0 +1,3 @@
+doctrine_migrations:
+    dir_name: '%kernel.project_dir%/src/Infrastructure/Persistence/Doctrine/Migrations'
+    namespace: App\Infrastructure\Persistence\Doctrine\Migrations
