@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Domain\Model;
 
 use Assert\Assertion;
