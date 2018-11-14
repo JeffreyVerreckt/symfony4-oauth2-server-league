@@ -12,8 +12,10 @@
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "*",
         "symfony/orm-pack": "^1.0",
+        "symfony/psr-http-message-bridge": "^1.1",
         "symfony/security-bundle": "*",
-        "symfony/yaml": "*"
+        "symfony/yaml": "*",
+        "zendframework/zend-diactoros": "^2.0"
     },
     "require-dev": {
         "symfony/dotenv": "*"

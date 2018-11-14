@@ -3,11 +3,11 @@
 namespace App\Application\Repository\Doctrine;
 
 use App\Domain\Model\RefreshToken;
-use App\Domain\Repository\AccessTokenRepositoryInterface;
+use App\Domain\Repository\RefreshTokenRepositoryInterface;
 use Doctrine\Common\Persistence\ObjectRepository;
 use Doctrine\ORM\EntityManagerInterface;
 
-final class RefreshTokenRepository implements AccessTokenRepositoryInterface
+final class RefreshTokenRepository implements RefreshTokenRepositoryInterface
 {
     private const ENTITY = RefreshToken::class;
 
